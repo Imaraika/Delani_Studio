@@ -1,0 +1,28 @@
+/* body {
+  margin: 150px 120px 120px auto;
+} */
+#bgrd1 {
+  background-image: url("../images/backgrounds/welcBgdr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcMsg {
+  /* display: relative;
+  float: Right; */
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 385px;
+}
+#mouseclickpic {
+  position: relative;
+  margin-top: 200px;
+  padding-top: 60px;
+  bottom: 20px;
+  text-align: center;
+}
+#lagoimg {
+  position: relative;
+  top: 325px;
+  text-align: center;
+}
