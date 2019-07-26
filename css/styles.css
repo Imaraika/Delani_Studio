@@ -1,6 +1,6 @@
-/* body {
-  margin: 150px 120px 120px auto;
-} */
+body {
+  font-family: "Roboto", sans-serif;
+}
 #bgrd1 {
   background-image: url("../images/backgrounds/welcBgdr.jpg");
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 #welcMsg {
   /* display: relative;
   float: Right; */
-  font-size: 25px;
+  font-size: 24px;
   color: white;
   text-align: center;
   padding-top: 385px;
