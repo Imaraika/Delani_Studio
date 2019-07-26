@@ -59,6 +59,15 @@ body {
   float: left;
   left: 580px;
 }
+#des-hidden{
+  display: none;
+}
+#dev-hidden{
+  display: none;
+}
+#proMgt-hidden{
+  display: none;
+}
 /* #work1 {
   padding: 10px 10px;
   background-image: url("../images/portfolio/work1.jpg");
