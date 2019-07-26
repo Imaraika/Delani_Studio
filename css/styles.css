@@ -40,19 +40,28 @@ body {
   padding-bottom: 205px;
 }
 .whatWeDo {
+  margin-top: 50px;
+  padding-bottom: 205px;
   text-align: center;
-} 
+}
 #des_ic {
+  position: relative;
   float: left;
-  left: 0px;
+  left: 60px;
 }
 #dec-ic {
   position: relative;
   float: left;
-  left: 500px;
+  left: 310px;
 }
 #pro-ic {
   position: relative;
   float: left;
-  left: 1000px;
+  left: 580px;
 }
+/* #work1 {
+  padding: 10px 10px;
+  background-image: url("../images/portfolio/work1.jpg");
+}
+img {
+} */
