@@ -26,3 +26,33 @@ body {
   top: 325px;
   text-align: center;
 }
+.about {
+  text-align: center;
+  font-size: 14px;
+}
+.services {
+  background-image: url("../images/backgrounds/servBgdr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 205px;
+}
+.whatWeDo {
+  text-align: center;
+} 
+#des_ic {
+  float: left;
+  left: 0px;
+}
+#dec-ic {
+  position: relative;
+  float: left;
+  left: 500px;
+}
+#pro-ic {
+  position: relative;
+  float: left;
+  left: 1000px;
+}
