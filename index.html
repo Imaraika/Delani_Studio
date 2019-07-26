@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css"/>
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"rel="stylesheet"/>
 </head>
@@ -44,8 +45,8 @@
     <div>
       <h1>WHAT WE DO</h1>
     </div>
-    <div id="icon_3">
-      <div id="des_ic">
+    <div id="icon_3" class="row">
+      <div id="des_ic" class="col-md-4">
         <img src="images/services_icons/design_icon.png">
         <p style="font-size:12px;">DESIGN</p>
         <div id="des-hidden">
@@ -58,7 +59,7 @@
         feedback and work with oyu to make sure what gets built<br>
         is what is needed.</p></div>
       </div>
-      <div id="dec-ic">
+      <div id="dec-ic" class="col-md-4">
         <img src="images/services_icons/dev_icon.png">
         <p style="font-size:12px;">DEVELOPMENT</p>
         <div id="dev-hidden">
@@ -69,7 +70,7 @@
         code on a daily basis, using proven practices such as<br>
         test-driven development and pair programming.</p></div>
       </div>
-      <div  id="pro-ic"> 
+      <div  id="pro-ic" class="col-md-4"> 
         <img src="images/services_icons/product_icon.png">
         <p style="font-size:12px;">PRODUCT MANAGEMENT</p>
       <div id="proMgt-hidden">
@@ -84,8 +85,9 @@
     </div>
   </section>
   <section class="portfolio">
-      <div id="work1"></div>
-       <img src="">
+    <div class="firstdiv-port">
+      <div id="work1"> </div>
+    
 
       <div id="work2">
          
@@ -95,7 +97,31 @@
       </div>
       <div id="work4"></div>
     </div>
+    </div>
+    <div class="seconddiv-port">
+        <div id="work5"> </div>
+      
+  
+        <div id="work6">
+           
+        </div>
+        <div id="work7">
+           
+        </div>
+        <div id="work8"></div>
+      </div>
+      </div>
   </section>
+  <section class="contact">
+      <div id="ct_contt">
+        <h1>CONTACT</h1>
+      </div>
+        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed
+           to understand your product vision
+        </p>
+        <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
+        <p>based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+    </section>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>

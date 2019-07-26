@@ -44,7 +44,11 @@ body {
   padding-bottom: 205px;
   text-align: center;
 }
-#des_ic {
+#icon_3 {
+  text-align: center;
+}
+
+/* #des_ic {
   position: relative;
   float: left;
   left: 60px;
@@ -58,19 +62,68 @@ body {
   position: relative;
   float: left;
   left: 580px;
-}
-#des-hidden{
+} */
+#des-hidden {
   display: none;
 }
-#dev-hidden{
+#dev-hidden {
   display: none;
 }
-#proMgt-hidden{
+#proMgt-hidden {
   display: none;
 }
-/* #work1 {
-  padding: 10px 10px;
+.firstdiv-port {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#work1 {
+  padding: 150px;
   background-image: url("../images/portfolio/work1.jpg");
 }
-img {
-} */
+#work2 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work2.jpg");
+}
+#work3 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work3.jpg");
+}
+#work4 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work4.jpg");
+}
+.seconddiv-port {
+  padding-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#work5 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work5.jpg");
+}
+#work6 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work6.jpg");
+}
+#work7 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work7.jpg");
+}
+#work8 {
+  padding: 150px;
+  background-image: url("../images/portfolio/work8.jpg");
+}
+.contact {
+  margin: 20px;
+  background-image: url("../images/backgrounds/ctBgdr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 205px;
+}
+/* img {
+}  */
