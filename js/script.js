@@ -11,6 +11,8 @@ $(document).ready(function() {
     $("#proMgt-hidden").toggle();
     $("#pro-image-showing").toggle();
   });
+
+
   $("h3").css("font-weight","bold");
   $("#des-parg").css({"text-align": "center"});
 
