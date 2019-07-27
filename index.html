@@ -46,12 +46,12 @@
       <h1>WHAT WE DO</h1>
     </div>
     <div id="icon_3" class="row">
-      <div id="des_ic" class="col-md-4">
-        <img src="images/services_icons/design_icon.png">
-        <p style="font-size:12px;">DESIGN</p>
+      <div  class="col-md-4" id="des-ic">
+        <div id="image-showingAgain"><img src="images/services_icons/design_icon.png" >
+        <p style="font-size:12px;">DESIGN</p></div>
         <div id="des-hidden">
         <h3>DESIGN</h3>
-        <p>Our design offers a full range of services<br>
+        <p id="des-parg">Our design offers a full range of services<br>
         including brand strategy, interaction and visual design<br>
         and user experience testing.</p>
         <p>Throughout your project, our designers create and<br>
@@ -59,11 +59,11 @@
         feedback and work with oyu to make sure what gets built<br>
         is what is needed.</p></div>
       </div>
-      <div id="dec-ic" class="col-md-4">
-        <img src="images/services_icons/dev_icon.png">
-        <p style="font-size:12px;">DEVELOPMENT</p>
+      <div id="dev-ic" class="col-md-4">
+        <div id="dev-image-showing"><img src="images/services_icons/dev_icon.png">
+        <p style="font-size:12px;">DEVELOPMENT</p></div>
         <div id="dev-hidden">
-        <h1>DEVELOPMENT</h1>
+        <h3>DEVELOPMENT</h3>
         <p>All engineers are fluent in the latest enterprise, mobile<br>
            and web development technologies.</p>
         <p>They collaborate with your team to write, and improve<br>
@@ -71,10 +71,10 @@
         test-driven development and pair programming.</p></div>
       </div>
       <div  id="pro-ic" class="col-md-4"> 
-        <img src="images/services_icons/product_icon.png">
-        <p style="font-size:12px;">PRODUCT MANAGEMENT</p>
+       <div id="pro-image-showing"><img src="images/services_icons/product_icon.png">
+        <p style="font-size:12px;">PRODUCT MANAGEMENT</p></div> 
       <div id="proMgt-hidden">
-        <h1>PRODUCT MANAGEMENT</h1>
+        <h3>PRODUCT MANAGEMENT</h3>
         <p>Planning and development is iterative. Because we are<br>
            constantly coding and testing, the products we build are<br>
            always ready to go live.</p>
@@ -85,30 +85,33 @@
     </div>
   </section>
   <section class="portfolio">
-    <div class="firstdiv-port">
-      <div id="work1"> </div>
-    
+    <div id="firstdiv-port" class="row">
+      <div id="work1" class="col-md-4"> </div>
+    <img src="images/portfolio/work1.jpg">
 
-      <div id="work2">
-         
+      <div id="work2" class="col-md-4">
+         <img src="images/portfolio/work2.jpg">
       </div>
-      <div id="work3">
-         
+      <div id="work3" class="col-md-4">
+        <img src="images/portfolio/work3.jpg">
       </div>
-      <div id="work4"></div>
+      <div id="work4" class="col-md-4">
+        <img src="images/portfolio/work4.jpg">
+      </div>
     </div>
-    </div>
-    <div class="seconddiv-port">
-        <div id="work5"> </div>
-      
-  
-        <div id="work6">
-           
+    <div id="seconddiv-port" class="row">
+        <div id="work5" class="col-md-4">
+            <img src="images/portfolio/work5.jpg">
+           </div>
+        <div id="work6" class="col-md-4">
+            <img src="images/portfolio/work6.jpg">
         </div>
-        <div id="work7">
-           
+        <div id="work7" class="col-md-4">
+            <img src="images/portfolio/work7.jpg">
         </div>
-        <div id="work8"></div>
+        <div id="work8" class="col-md-4">
+            <img src="images/portfolio/work8.jpg">
+        </div>
       </div>
       </div>
   </section>
@@ -116,13 +119,13 @@
       <div id="ct_contt">
         <h1>CONTACT</h1>
       </div>
-        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed
-           to understand your product vision
-        </p>
-        <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
-        <p>based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+      <form>
+        <div class="form-group">
+           <input id="name1" type="text" value="Name">
+           <input id="email" type="text" value="Email"><br><br>
+           <input id="textAr"type="text" value="Your Message here...">
+        </div>
     </section>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>  <script src="js/script.js"></script>
 </body>
 </html>
