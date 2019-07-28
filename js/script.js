@@ -11,6 +11,9 @@ $(document).ready(function() {
     $("#proMgt-hidden").toggle();
     $("#pro-image-showing").toggle();
   });
+  $("#submitBtn").click(function(){
+    $("#myForm").submit();
+  })
 
 
   $("h3").css("font-weight","bold");
