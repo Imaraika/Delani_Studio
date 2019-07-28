@@ -13,6 +13,7 @@ $(document).ready(function() {
   });
   $("#submitBtn").click(function(){
     $("#myForm").submit();
+    alert("Thank you to reach out with us!");
   })
 
 
