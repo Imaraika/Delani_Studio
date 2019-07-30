@@ -100,42 +100,70 @@ body {
   margin-left: 12%;
   margin-bottom: 20px;
 }
-
 .image-show {
-  opacity: 18;
+ 
   display: block;
   width: 80%;
   height: 90%;
-  backface-visibility: hidden;
 }
 
-.middle {
-  opacity: 0;
+.middle1 {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  left: 25%;
   text-align: center;
+  border: 2px solid white;
+  visibility: hidden;
 }
-
-.col-md-3:hover {
-  opacity: 0.5;
-}
-
-.col-md-3:hover .middle {
+.projectname1 {
   opacity: 1;
-}
-.col-md-3:hover .left1 {
-  /* opacity: 18; */
-}
-.projectname {
-  /* opacity: 18; */
   color: white;
   font-size: 16px;
+  
+}
+.middle2 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  border: 2px solid white;
+  visibility: hidden;
+}
+.projectname2 {
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+  
+}
+.middle3 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  border: 2px solid white;
+  visibility: hidden;
+}
+.projectname3 {
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+ 
+}
+.middle4 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  border: 2px solid white;
+  visibility: hidden;
+}
+.projectname4 {
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+ 
 }
 .left1 {
-  opacity: 0.5;
   position: absolute;
   top: 10%;
   left: 5%;
@@ -145,8 +173,6 @@ body {
   color: white;
   font-size: 16px;
   text-align: center;
-
   border: 2px solid white;
-  /* background-color: black; */
   padding-bottom: 100px;
 }
