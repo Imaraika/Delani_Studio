@@ -43,7 +43,7 @@ $("#work3").hover(function() {
 });
 $("#work3").mouseout(function() {
   $(".middle3").css("visibility", "hidden");
-  $("#work3").css("opacity", "18");
+  $("#work3").css("opacity", "19");
 });
 $("#work4").hover(function() {
   $("#work4").css("opacity", "0.3");
@@ -52,7 +52,7 @@ $("#work4").hover(function() {
 });
 $("#work4").mouseout(function() {
   $(".middle4").css("visibility", "hidden");
-  $("#work4").css("opacity", "18");
+  $("#work4").css("opacity", "19");
 });
 $("#work5").hover(function() {
   $("#work5").css("opacity", "0.3");
