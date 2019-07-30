@@ -88,5 +88,5 @@ $("#work8").hover(function() {
 });
 $("#work8").mouseout(function() {
   $(".middle8").css("visibility", "hidden");
-  $("#work8").css("opacity", "18");
+  $("#work8").css("opacity", "19");
 });
