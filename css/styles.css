@@ -51,10 +51,11 @@ body {
 }
 .whatWeDo {
   margin-top: 50px;
-  padding-bottom: 205px;
+  padding-bottom: 105px;
   text-align: center;
 }
 #icon_3 {
+  padding-top: 50px;
   text-align: center;
 }
 #des-hidden {
@@ -94,9 +95,10 @@ body {
   padding: 0px 370px 300px 0px;
 }
 .portfolio {
-  position: relative;
+  text-align: center;
   max-width: 80%;
   margin-left: 12%;
+  margin-bottom: 20px;
 }
 
 .image-show {
@@ -118,30 +120,33 @@ body {
 }
 
 .col-md-3:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .col-md-3:hover .middle {
-  opacity: 16;
+  opacity: 1;
 }
 .col-md-3:hover .left1 {
   opacity: 18;
 }
 .projectname {
+  /* opacity: 18; */
   color: white;
   font-size: 16px;
 }
 .left1 {
-  opacity: 0;
+  opacity: 0.5;
   position: absolute;
-  top: 2%;
+  top: 10%;
   left: 5%;
   width: 70%;
 }
 .projectLst {
   color: white;
   font-size: 16px;
+  text-align: center;
+
   border: 2px solid white;
-  background-color: black;
+  /* background-color: black; */
   padding-bottom: 100px;
 }
