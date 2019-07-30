@@ -19,15 +19,15 @@ body {
 #welcMsg {
   /* display: relative;
   float: Right; */
-  font-size: 24px;
+  font-size: 34px;
   color: white;
   text-align: center;
-  padding-top: 385px;
+  padding-top: 420px;
 }
 #mouseclickpic {
   position: relative;
   margin-top: 200px;
-  padding-top: 60px;
+  padding-top: 100px;
   bottom: 20px;
   text-align: center;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .image-show {
-  opacity: 5;
+  opacity: 18;
   display: block;
   width: 80%;
   height: 90%;
@@ -127,7 +127,7 @@ body {
   opacity: 1;
 }
 .col-md-3:hover .left1 {
-  opacity: 18;
+  /* opacity: 18; */
 }
 .projectname {
   /* opacity: 18; */
